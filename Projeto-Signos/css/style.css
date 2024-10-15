@@ -1,0 +1,100 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
+}
+
+.container-cabecalho {
+    
+    width: 100%;
+    padding-bottom: .5rem;
+    background: -webkit-linear-gradient(right, rgb(243, 121, 182) 0%, white 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    align-content: center;
+        
+    
+}
+
+.container-fluid{
+    align-content: center;
+
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    
+}
+
+input {
+    width: 25%;
+    margin-top: 2%;
+    
+  
+}
+
+td{
+    padding-bottom: .25rem;
+}
+
+
+h1{
+    font-size: 2rem;
+    padding-top: 2%;
+    text-wrap: wrap;
+   
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+    background: -webkit-linear-gradient(right, rgb(156, 58, 189) 1%, rgb(231, 104, 208));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+
+
+} 
+
+
+
+
+button{
+    margin-top: 1rem;
+}
+
+@media only screen and (min-width: 500px) {
+
+    input {
+        width: 20%;
+      
+    }
+
+    h1{
+        font-size: 2rem;
+        
+        padding-top: 2%;
+        text-wrap: wrap;
+       
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: center;
+        
+        background: -webkit-linear-gradient(right, rgb(156, 58, 189) 1%, rgb(231, 104, 208));
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        
+    
+    
+    }
+
+    
+   
+
+    
+}
