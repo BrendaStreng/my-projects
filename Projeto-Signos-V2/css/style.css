@@ -1,0 +1,142 @@
+
+html{
+    
+}
+
+body {
+    max-width: 500px;
+    width: 85%;
+    margin: 2rem auto;
+    height: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2), 0 2.5rem 5rem 0 rgba(0, 0, 0, .1);
+
+    
+    
+}
+
+
+p {
+    font-size: 1.5rem;
+    padding-bottom: 0;
+    margin-bottom: 1rem;
+} 
+
+.p2 { 
+    font-size: 1rem;
+
+}
+select  {
+    color: rgb(112, 22, 128);
+    width: 6rem;
+    font-size: 1.5rem;
+    
+}
+
+.container-cabecalho {
+    width: 100%;
+    padding-bottom: 1rem;
+    background-image:url(../img/constelacao.png);
+    
+    background-position: 100%;
+    background-size: 100%;
+    text-align: center;
+    
+
+}
+
+.bg{
+    background-color: white;
+    opacity: 85%;
+}
+
+button{
+    
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    
+
+    background-image:url(../img/constelacao.png);
+    color: white;
+    background-position: 50%;
+    background-size: 100%;
+    
+    
+}
+
+
+
+.espacamento { 
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+  
+    
+    
+}
+
+ul {
+    
+    
+    text-align: center;
+    padding-left: 0;
+   
+}
+
+
+
+h1 {
+    
+    
+    margin: 0;
+    font-size: 3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-wrap: wrap;
+    padding-top: 1rem;
+    text-align: center;
+
+    background: -webkit-linear-gradient(right, rgb(207, 91, 230)55%, rgb(110, 244, 199));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+
+
+
+
+}
+
+h2 {
+    text-align: center;
+}
+
+@media only screen and (min-width:600px) {
+    
+    body {
+        max-width: 700px;
+        width: 85%;
+        
+        margin: 2rem auto;
+        
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2), 0 2.5rem 5rem 0 rgba(0, 0, 0, .1);
+        
+    }
+
+    
+    
+
+}
+
+.space{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.background{
+    background-image:url(../img/constelacao.png);
+
+}
